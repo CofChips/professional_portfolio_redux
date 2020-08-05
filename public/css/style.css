@@ -32,3 +32,23 @@
 .list {
     list-style-type: none;
 }
+
+.background{
+    background-image: url("../assets/img/lake.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 50%; */
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.lighten:hover .image {
+    opacity: 0.6;
+  }

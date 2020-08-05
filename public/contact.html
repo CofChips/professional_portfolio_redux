@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link
+    <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&family=Roboto+Condensed&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,11 +30,13 @@
 <body>
     <nav class="navbar navbar-expand flex-column flex-md-row p-0 bg-white bd-navbar overflow-hidden">
         <!-- existing brand component with responsive margin and hides on smaller sizes -->
-        <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100"
-            style="margin-left:3%;font-family: 'Times New Roman', Times, serif;font-size: 30px;">LOGO</a>
+        <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100" style="margin-left:3%;" href="/">
+            <img src="./assets/img/banffsmall.jpg" alt="portfolio" class="rounded-circle" style="max-width: 50px;">
+        </a>
         <!-- appears on smaller sizes with background that fills 100% width -->
         <div class="d-block d-md-none p-4 font-weight-bold m-0" style="width:100%;">
-            <p class="text-center m-0" style="font-family: 'Times New Roman', Times, serif;font-size: 30px;">LOGO</p>
+            <p class="text-center m-0"> <img src="./assets/img/banffsmall.jpg" alt="portfolio" class="rounded-circle"
+                    style="max-width: 50px;"></p>
         </div>
         <!-- nav links -->
         <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%">
@@ -53,18 +55,17 @@
     </nav>
 
     <div class="container w-100" style="margin:auto">
+        <div class="row mt-5 pb-4 border-bottom mb-4">
+            <div class="col-md text-center roboto">
+                <h1 style="font-size: 60px;">Contact</h1>
+            </div>
+        </div>
         <div class="row m-0">
             <div class="col-md-12 p-0">
                 <section class="jumbotron bg-white border py-2 px-1 my-5 mx-md-auto" style="max-width: 950px;">
                     <div class="container">
                         <!-- sub-row -->
-                        <div class="row">
-                            <!-- header -->
-                            <header class="col-12">
-                                <h2 class="display-5 font-weight-bold border-bottom roboto"
-                                    >Contact</h2>
-                            </header>
-                        </div>
+
                         <!-- form -->
                         <form>
                             <div class="form-group">
@@ -79,10 +80,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="textForm">Message</label>
-                                <textarea class="form-control" id="textForm" rows="8"
-                                    name="message"></textarea>
+                                <textarea class="form-control" id="textForm" rows="8" name="message"></textarea>
                             </div>
-                            <button type="submit" value="Send" class="btn" id ="submitButton"
+                            <button type="submit" value="Send" class="btn" id="submitButton"
                                 style="background-color: #32527B; color:white">Submit</button>
                         </form>
                     </div>
@@ -90,7 +90,12 @@
             </div>
         </div>
     </div>
-
+    <footer class="footer">
+        <div class="container-fluid text-center" style="height: 50px;">
+            <a href="https://github.com/CofChips" target="blank"><i class="fa fa-github-square git"></i></a>
+            <a href="https://www.linkedin.com/in/christophernlee/"><i class="fa fa-linkedin-square li"></i></a>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -100,7 +105,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <script src="js/contact.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
