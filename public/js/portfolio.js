@@ -10,12 +10,12 @@ $(document).ready(function () {
             <div class="card col-md-4 mb-5 border-0">
                 <div class="lighten">
                     <a href="${live}" target="blank">
-                        <img src="assets/img/${img}" class="card-img-top image" alt="${name}">
+                        <img src="assets/img/${img}" class="card-img-top image border" alt="${name}">
                     </a>
                 </div>
                
                 <div class="card-body text-center">
-                    <p class="card-title"> <a href="${live}" target="blank"> Live site </a> |  <a href="https://github.com/CofChips/${repo}" target="blank">Repository</a></p>
+                    <p class="card-title"> <a href="${live}" target="blank" class="text-secondary"> Live site </a> |  <a href="https://github.com/CofChips/${repo}" target="blank" class="text-secondary">Repository</a></p>
                     
                 </div>
             </div>
