@@ -52,3 +52,8 @@
 .lighten:hover .image {
     opacity: 0.6;
   }
+
+.indexFont {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
