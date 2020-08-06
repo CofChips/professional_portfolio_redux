@@ -29,12 +29,18 @@
     font-size: 85px;
 }
 
+.headerSmall {
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+}
+
 .list {
     list-style-type: none;
 }
 
 .background{
-    background-image: url("../assets/img/lake.JPG");
+    background-image: url("../assets/img/banff.JPG");
     min-height:100%;
     background-repeat: no-repeat;
     background-size: cover;
